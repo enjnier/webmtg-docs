@@ -34,4 +34,5 @@ jobs:
           rye sync
       - name: Build and deploy
         run: |
+          source $HOME/.rye/env
           rye run mkdocs gh-deploy --force
