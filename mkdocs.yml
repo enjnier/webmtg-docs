@@ -1,4 +1,125 @@
-site_name: My Docs
+## Project information
+site_name: 独自開発Web会議システム
+site_dir: build/docs/webmtg
 
+## Repository
+repo_name: webmtg-docs
+repo_url: https://github.com/enjnier/webmtg-docs
+
+## Configuration
 theme:
   name: material
+  custom_dir: overrides
+  language: "ja"
+  palette:
+    primary: "indigo"
+    accent: "indigo"
+  font:
+    text: Noto Sans JP
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - content.tooltips
+    - navigation.instant
+    - navigation.footer
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    # - content.tabs.link
+    # - navigation.expand
+    # - navigation.sections
+    # - navigation.tracking
+
+## Plugins
+plugins:
+  - monorepo
+  - glightbox
+  - search:
+      separator: '[\s\-\.]+'
+  - table-reader:
+      data_path: "docs/tables"
+      base_path: "config_dir"
+
+## Customization
+extra:
+  search:
+    language: "ja"
+
+## Assets
+extra_css:
+  ### mystyle
+  - "static/css/common.css"
+  - "static/css/custom.css"
+  - "static/css/override.css"
+
+## Navigation
+nav:
+  - 概要:
+    - index.md
+    - login.md
+    - meeting.md
+
+## Extensions
+markdown_extensions:
+  ### Python-Markdown ----------------------------------------------------------------------
+  - markdown.extensions.abbr:
+  - markdown.extensions.admonition:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.footnotes:
+  - markdown.extensions.md_in_html:
+  - markdown.extensions.sane_lists:
+  - markdown.extensions.toc:
+      toc_depth: 2-3
+      permalink: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify { kwds: { case: lower } }
+  ### PyMdown-Extensions -------------------------------------------------------------------
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+  - pymdownx.caret:
+  - pymdownx.critic:
+  - pymdownx.details:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.escapeall:
+      hardbreak: True
+      nbsp: True
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      guess_lang: true
+      linenums: true
+  - pymdownx.inlinehilite:
+  - pymdownx.keys:
+      key_map: {}
+  - pymdownx.magiclink:
+  - pymdownx.mark:
+  - pymdownx.progressbar:
+  - pymdownx.saneheaders:
+  - pymdownx.smartsymbols:
+  - pymdownx.snippets:
+      base_path: docs/snippets
+  - pymdownx.striphtml:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: True
+      clickable_checkbox: True
+  - pymdownx.tilde:
+## Reference
+# https://python-markdown.github.io/extensions/
+# https://squidfunk.github.io/mkdocs-material/
+# https://facelessuser.github.io/pymdown-extensions/
+# https://mermaid-js.github.io/mermaid/#/
+# https://timvink.github.io/mkdocs-table-reader-plugin/

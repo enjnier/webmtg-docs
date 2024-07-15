@@ -1,0 +1,20 @@
+/* default 61rem -> 70rem */
+.md-grid {
+  max-width: 70rem;
+}
+
+/* default 12.1rem -> 13rem */
+.md-sidebar {
+  width: 13rem;
+}
+
+/* default 11.5rem -> 12.5rem */
+@supports selector(::-webkit-scrollbar) {
+  [dir="ltr"] .md-sidebar__inner {
+    padding-right: calc(100% - 12.5rem);
+  }
+
+  [dir="rtl"] .md-sidebar__inner {
+    padding-right: calc(100% - 12.5rem);
+  }
+}
