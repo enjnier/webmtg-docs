@@ -4,7 +4,7 @@
 
 認証方式にはJWT（Json Web Token）を採用しており、メールアドレスとパスワードを入力してログインします。
 
-![](/static/img/login/login.png)
+![](static/img/login/login.png)
 {.image-border}
 
 ## 認証フロー

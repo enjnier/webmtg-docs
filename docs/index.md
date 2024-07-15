@@ -36,7 +36,7 @@
 
 以下は、本Web会議システムのトップ画面（ダッシュボード）です
 
-![Web会議システムのダッシュボード画面](/static/img/overview/dashboard.png)
+![Web会議システムのダッシュボード画面](static/img/overview/dashboard.png)
 {.image-border}
 
 ### ダッシュボード画面の構成
@@ -78,7 +78,7 @@ SPAとして構成されるシステムであり、以下の技術スタック�
 
 ローカル上で動作させた時のアーキテクチャは以下のとおりです。
 
-![](/static/img/overview/architecture.svg)
+![](static/img/overview/architecture.svg)
 
 ### フロントエンドの構成
 
@@ -122,30 +122,30 @@ Minimalテンプレートでは`react-i18next`による多言語に対応する�
 
 本システムでは英語と日本語に対応する形で改修し、自由に切り替えられるようにしています。
 
-![](/static/img/overview/translation.png)
+![](static/img/overview/translation.png)
 
 ### 設定機能
 
 ヘッダ領域の歯車アイコンを押下すると、設定ダイアログが表示されます。
 
 === "基本"
-    ![](/static/img/overview/settings-1.png)
+    ![](static/img/overview/settings-1.png)
     {.w-40}
 
 === "ナビ"
-    ![](/static/img/overview/settings-2.png)
+    ![](static/img/overview/settings-2.png)
     {.w-40}
 
 === "プリセット"
-    ![](/static/img/overview/settings-3.png)
+    ![](static/img/overview/settings-3.png)
     {.w-40}
 
 === "フォント"
-    ![](/static/img/overview/settings-4.png)
+    ![](static/img/overview/settings-4.png)
     {.w-40}
 
 === "全体図"
-    ![](/static/img/overview/settings.png)
+    ![](static/img/overview/settings.png)
     {.w-40}
 
 デフォルトからの対応内容は以下のとおりです。
@@ -161,7 +161,7 @@ Minimalテンプレートでは`react-i18next`による多言語に対応する�
 
 表示内容はテンプレートのデモ内容のままですが、ログアウトのボタンだけ日本語化しています。
 
-![](/static/img/overview/profile.png)
+![](static/img/overview/profile.png)
 {.w-40 .image-border}
 
 ## 今後の展望

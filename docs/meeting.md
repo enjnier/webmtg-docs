@@ -23,15 +23,15 @@
 
 === "日本語表記"
 
-    ![](/static/img/meeting/meeting-list-ja.png)
+    ![](static/img/meeting/meeting-list-ja.png)
 
 === "英語表記"
 
-    ![](/static/img/meeting/meeting-list-en.png)
+    ![](static/img/meeting/meeting-list-en.png)
 
 リスト左端のチェックをONにすると削除ボタンが表示されます。
 
-![](/static/img/meeting/meeting-selected-all.png)
+![](static/img/meeting/meeting-selected-all.png)
 
 ### フィルタリング
 
@@ -41,7 +41,7 @@
         - それぞれのカラムに対して選択式のフィルタリングが可能です
         - 画像では単一項目を選択していますが、複数項目を選択することもできます
 
-    ![](/static/img/meeting/meeting-list-filter.png)
+    ![](static/img/meeting/meeting-list-filter.png)
 
 === "検索によるフィルタ"
 
@@ -49,13 +49,13 @@
         - 会議名（タイトル及び説明）と開始日時と終了日時のカラムに対するフィルタリングが可能です
         - 画像では半角スペースを入れることでAND条件としています
 
-    ![](/static/img/meeting/meeting-quick-search.png)
+    ![](static/img/meeting/meeting-quick-search.png)
 
 ## 入室前画面
 
 一覧画面から会議タイトルを押下した時の画面です。
 
-![](/static/img/meeting/meeting-prepare.png)
+![](static/img/meeting/meeting-prepare.png)
 
 !!!info
     参加者の欄に表示されるユーザーの入室状況をリアルタイムに確認することも可能です。  
@@ -65,17 +65,17 @@
 
 入室前画面の「**会議に参加する**」ボタンを押下した時の画面です。
 
-![](/static/img/meeting/meeting-room.png)
+![](static/img/meeting/meeting-room.png)
 
 もう一人が入室した時の画面は以下のとおりです。
 
-![](/static/img/meeting/meeting-room-two.png)
+![](static/img/meeting/meeting-room-two.png)
 
 ### 会議詳細
 
 画面下部の「**会議詳細**」ボタンを押下した時の画面です。会議に関する情報を表示します。
 
-![](/static/img/meeting/meeting-room-detail.png)
+![](static/img/meeting/meeting-room-detail.png)
 
 他に表示するものとして、以下のような項目があります。
 
@@ -88,4 +88,4 @@
 
 画面下部の「**参加者**」ボタンを押下した時の画面です。会議に参加しているユーザー情報を表示します。
 
-![](/static/img/meeting/meeting-room-participant.png)
+![](static/img/meeting/meeting-room-participant.png)
